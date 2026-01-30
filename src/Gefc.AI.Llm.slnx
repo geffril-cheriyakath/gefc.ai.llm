@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Gefc.AI.Llm.Demo/Gefc.AI.Llm.Demo.csproj" />
+    <Project Path="src/Gefc.AI.Llm.Providers.Gemini/Gefc.AI.Llm.Providers.Gemini.csproj" />
+    <Project Path="src/Gefc.AI.Llm.Providers.Ollama/Gefc.AI.Llm.Providers.Ollama.csproj" />
+    <Project Path="src/Gefc.AI.Llm/Gefc.AI.Llm.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Gefc.AI.Llm.Tests/Gefc.AI.Llm.Tests.csproj" />
+  </Folder>
+</Solution>
