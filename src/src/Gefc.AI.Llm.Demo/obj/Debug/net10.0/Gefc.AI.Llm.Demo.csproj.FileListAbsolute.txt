@@ -51,3 +51,4 @@ C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.AI.Llm.D
 C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.AI.Llm.Demo\obj\Debug\net10.0\Gefc.AI.Llm.Demo.pdb
 C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.AI.Llm.Demo\obj\Debug\net10.0\Gefc.AI.Llm.Demo.genruntimeconfig.cache
 C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.AI.Llm.Demo\obj\Debug\net10.0\ref\Gefc.AI.Llm.Demo.dll
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.AI.Llm.Demo\obj\Debug\net10.0\Gefc.AI.Llm.Demo.sourcelink.json
