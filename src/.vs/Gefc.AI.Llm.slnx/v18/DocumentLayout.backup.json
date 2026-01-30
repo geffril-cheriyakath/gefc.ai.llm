@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1266CD7C-D932-E2E2-500B-B5B888B4225A}|src\\Gefc.AI.Llm.Demo\\Gefc.AI.Llm.Demo.csproj|c:\\users\\geffr\\onedrive\\desktop\\personal\\repos\\gefc.ai.llm\\src\\src\\gefc.ai.llm.demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1266CD7C-D932-E2E2-500B-B5B888B4225A}|src\\Gefc.AI.Llm.Demo\\Gefc.AI.Llm.Demo.csproj|solutionrelative:src\\gefc.ai.llm.demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{090AC8B5-62FF-B702-D3CB-41DD52DF2541}|src\\Gefc.AI.Llm.Providers.Gemini\\Gefc.AI.Llm.Providers.Gemini.csproj|c:\\users\\geffr\\onedrive\\desktop\\personal\\repos\\gefc.ai.llm\\src\\src\\gefc.ai.llm.providers.gemini\\geministreamingparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{090AC8B5-62FF-B702-D3CB-41DD52DF2541}|src\\Gefc.AI.Llm.Providers.Gemini\\Gefc.AI.Llm.Providers.Gemini.csproj|solutionrelative:src\\gefc.ai.llm.providers.gemini\\geministreamingparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{226AD57E-8A03-EDAC-0D70-FF3F878EAD09}|src\\Gefc.AI.Llm\\Gefc.AI.Llm.csproj|c:\\users\\geffr\\onedrive\\desktop\\personal\\repos\\gefc.ai.llm\\src\\src\\gefc.ai.llm\\internal\\llmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{226AD57E-8A03-EDAC-0D70-FF3F878EAD09}|src\\Gefc.AI.Llm\\Gefc.AI.Llm.csproj|solutionrelative:src\\gefc.ai.llm\\internal\\llmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1266CD7C-D932-E2E2-500B-B5B888B4225A}|src\\Gefc.AI.Llm.Demo\\Gefc.AI.Llm.Demo.csproj|c:\\users\\geffr\\onedrive\\desktop\\personal\\repos\\gefc.ai.llm\\src\\src\\gefc.ai.llm.demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1266CD7C-D932-E2E2-500B-B5B888B4225A}|src\\Gefc.AI.Llm.Demo\\Gefc.AI.Llm.Demo.csproj|solutionrelative:src\\gefc.ai.llm.demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{090AC8B5-62FF-B702-D3CB-41DD52DF2541}|src\\Gefc.AI.Llm.Providers.Gemini\\Gefc.AI.Llm.Providers.Gemini.csproj|c:\\users\\geffr\\onedrive\\desktop\\personal\\repos\\gefc.ai.llm\\src\\src\\gefc.ai.llm.providers.gemini\\geminiprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,24 +130,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OllamaStreamingParser.cs",
-              "DocumentMoniker": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Providers.Ollama\\OllamaStreamingParser.cs",
-              "RelativeDocumentMoniker": "src\\Gefc.AI.Llm.Providers.Ollama\\OllamaStreamingParser.cs",
-              "ToolTip": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Providers.Ollama\\OllamaStreamingParser.cs",
-              "RelativeToolTip": "src\\Gefc.AI.Llm.Providers.Ollama\\OllamaStreamingParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T19:57:54.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OllamaResponseMapper.cs",
               "DocumentMoniker": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Providers.Ollama\\OllamaResponseMapper.cs",
               "RelativeDocumentMoniker": "src\\Gefc.AI.Llm.Providers.Ollama\\OllamaResponseMapper.cs",
@@ -160,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LlmService.cs",
               "DocumentMoniker": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm\\Internal\\LlmService.cs",
               "RelativeDocumentMoniker": "src\\Gefc.AI.Llm\\Internal\\LlmService.cs",
@@ -173,13 +160,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GeminiStreamingParser.cs",
               "DocumentMoniker": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Providers.Gemini\\GeminiStreamingParser.cs",
               "RelativeDocumentMoniker": "src\\Gefc.AI.Llm.Providers.Gemini\\GeminiStreamingParser.cs",
               "ToolTip": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Providers.Gemini\\GeminiStreamingParser.cs",
               "RelativeToolTip": "src\\Gefc.AI.Llm.Providers.Gemini\\GeminiStreamingParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-30T18:40:35.061Z",
               "EditorCaption": ""
@@ -199,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OllamaProvider.cs",
               "DocumentMoniker": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Providers.Ollama\\OllamaProvider.cs",
               "RelativeDocumentMoniker": "src\\Gefc.AI.Llm.Providers.Ollama\\OllamaProvider.cs",
@@ -208,6 +195,32 @@
               "ViewState": "AgIAACsAAAAAAAAAAADgv0IAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-30T18:43:53.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Demo\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Gefc.AI.Llm.Demo\\Program.cs",
+              "ToolTip": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Demo\\Program.cs",
+              "RelativeToolTip": "src\\Gefc.AI.Llm.Demo\\Program.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T18:35:29.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OllamaStreamingParser.cs",
+              "DocumentMoniker": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Providers.Ollama\\OllamaStreamingParser.cs",
+              "RelativeDocumentMoniker": "src\\Gefc.AI.Llm.Providers.Ollama\\OllamaStreamingParser.cs",
+              "ToolTip": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Providers.Ollama\\OllamaStreamingParser.cs",
+              "RelativeToolTip": "src\\Gefc.AI.Llm.Providers.Ollama\\OllamaStreamingParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T19:57:54.289Z",
               "EditorCaption": ""
             },
             {
@@ -233,19 +246,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-30T18:35:15.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Demo\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Gefc.AI.Llm.Demo\\Program.cs",
-              "ToolTip": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.AI.Llm.Demo\\Program.cs",
-              "RelativeToolTip": "src\\Gefc.AI.Llm.Demo\\Program.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T18:35:29.944Z",
               "EditorCaption": ""
             },
             {

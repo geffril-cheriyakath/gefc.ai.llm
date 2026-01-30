@@ -49,60 +49,60 @@ var llm = host.Services.GetRequiredService<ILlmService>();
 // 1️⃣ Normal Chat (Ollama - default)
 // ==================================================
 
-//Console.WriteLine("👉 Normal Chat (Ollama)");
-//Console.WriteLine("--------------------------------");
+Console.WriteLine("👉 Normal Chat (Ollama)");
+Console.WriteLine("--------------------------------");
 
-//var ollamaChat = await llm.ChatAsync(new ChatRequest
-//{
-//    Messages =
-//    [
-//        new(ChatRole.User, "Explain clean architecture in one paragraph.")
-//    ]
-//});
+var ollamaChat = await llm.ChatAsync(new ChatRequest
+{
+    Messages =
+    [
+        new(ChatRole.User, "Explain clean architecture in one paragraph.")
+    ]
+});
 
-//Console.WriteLine(ollamaChat.Content);
-//Console.WriteLine();
+Console.WriteLine(ollamaChat.Content);
+Console.WriteLine();
 
-//// ==================================================
-//// 2️⃣ Streaming Chat (Ollama)
-//// ==================================================
+// ==================================================
+// 2️⃣ Streaming Chat (Ollama)
+// ==================================================
 
-//Console.WriteLine("👉 Streaming Chat (Ollama)");
-//Console.WriteLine("--------------------------------");
+Console.WriteLine("👉 Streaming Chat (Ollama)");
+Console.WriteLine("--------------------------------");
 
-//await foreach (var chunk in llm.ChatStreamAsync(new ChatRequest
-//{
-//    Messages =
-//    [
-//        new(ChatRole.User, "Write a short poem about Bangalore.")
-//    ]
-//}))
-//{
-//    Console.Write(chunk.Delta);
-//}
+await foreach (var chunk in llm.ChatStreamAsync(new ChatRequest
+{
+    Messages =
+    [
+        new(ChatRole.User, "Write a short poem about Bangalore.")
+    ]
+}))
+{
+    Console.Write(chunk.Delta);
+}
 
-//Console.WriteLine();
-//Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
 
-//// ==================================================
-//// 3️⃣ Normal Chat (Gemini)
-//// ==================================================
+// ==================================================
+// 3️⃣ Normal Chat (Gemini)
+// ==================================================
 
-//Console.WriteLine("👉 Normal Chat (Gemini)");
-//Console.WriteLine("--------------------------------");
+Console.WriteLine("👉 Normal Chat (Gemini)");
+Console.WriteLine("--------------------------------");
 
-//var geminiChat = await llm.ChatAsync(new ChatRequest
-//{
-//    Provider = "gemini",
-//    Model = "gemini-2.5-flash",
-//    Messages =
-//    [
-//        new(ChatRole.User, "Explain LLMs in simple words.")
-//    ]
-//});
+var geminiChat = await llm.ChatAsync(new ChatRequest
+{
+    Provider = "gemini",
+    Model = "gemini-2.5-flash",
+    Messages =
+    [
+        new(ChatRole.User, "Explain LLMs in simple words.")
+    ]
+});
 
-//Console.WriteLine(geminiChat.Content);
-//Console.WriteLine();
+Console.WriteLine(geminiChat.Content);
+Console.WriteLine();
 
 // ==================================================
 // 4️⃣ Streaming Chat (Gemini)
