@@ -6,6 +6,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Gefc.AI.Llm.Abstractions;
+using Gefc.AI.Llm.Providers.Gemini.Options;
 
 namespace Gefc.AI.Llm.Providers.Gemini.DependencyInjection;
 
