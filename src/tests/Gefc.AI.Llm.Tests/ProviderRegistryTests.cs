@@ -1,5 +1,5 @@
+using Gefc.Ai.Llm.Tests;
 using Gefc.AI.Llm.Internal;
-using Gefc.AI.Llm.Tests.TestDoubles;
 using Xunit;
 
 namespace Gefc.AI.Llm.Tests;

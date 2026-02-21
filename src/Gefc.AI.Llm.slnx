@@ -1,13 +1,15 @@
 <Solution>
+  <Folder Name="/demo/">
+    <Project Path="demo/Gefc.Ai.Llm.Sample/Gefc.Ai.Llm.Sample.csproj" Id="070600d2-5229-47c0-ac8f-c0edea4fe7de" />
+  </Folder>
+
   <Folder Name="/src/">
-    <Project Path="Gefc.AI.Llm/Gefc.AI.Llm.csproj" />
-    <Project Path="Gefc.AI.Llm.Providers.Gemini/Gefc.AI.Llm.Providers.Gemini.csproj" />
-    <Project Path="Gefc.AI.Llm.Providers.Ollama/Gefc.AI.Llm.Providers.Ollama.csproj" />
+    <Project Path="src/Gefc.Ai.Llm/Gefc.Ai.Llm.csproj" />
+    <Project Path="src/Gefc.Ai.Llm.Providers.Gemini/Gefc.Ai.Llm.Providers.Gemini.csproj" />
+    <Project Path="src/Gefc.Ai.Llm.Providers.Ollama/Gefc.Ai.Llm.Providers.Ollama.csproj" />
   </Folder>
-  <Folder Name="/samples/">
-    <Project Path="samples/Gefc.AI.Llm.Demo/Gefc.AI.Llm.Demo.csproj" />
-  </Folder>
+
   <Folder Name="/tests/">
-    <Project Path="tests/Gefc.AI.Llm.Tests/Gefc.AI.Llm.Tests.csproj" />
+    <Project Path="tests/Gefc.Ai.Llm.Tests/Gefc.Ai.Llm.Tests.csproj" />
   </Folder>
 </Solution>

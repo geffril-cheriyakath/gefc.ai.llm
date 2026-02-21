@@ -16,17 +16,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Gefc.AI.Llm.Providers.Gemini\Gefc.AI.Llm.Providers.Gemini.csproj" />
-    <ProjectReference Include="..\..\Gefc.AI.Llm.Providers.Ollama\Gefc.AI.Llm.Providers.Ollama.csproj" />
-    <ProjectReference Include="..\..\Gefc.AI.Llm\Gefc.AI.Llm.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Gefc.Ai.Llm.Providers.Gemini\Gefc.Ai.Llm.Providers.Gemini.csproj" />
+    <ProjectReference Include="..\..\src\Gefc.AI.Llm.Providers.Ollama\Gefc.Ai.Llm.Providers.Ollama.csproj" />
+    <ProjectReference Include="..\..\src\Gefc.Ai.Llm\Gefc.Ai.Llm.csproj" />
   </ItemGroup>
 
 </Project>

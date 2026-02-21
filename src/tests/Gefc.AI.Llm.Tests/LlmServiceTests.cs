@@ -1,8 +1,8 @@
+using Gefc.Ai.Llm.Tests;
 using Gefc.AI.Llm.Abstractions;
 using Gefc.AI.Llm.Internal;
 using Gefc.AI.Llm.Models;
 using Gefc.AI.Llm.Options;
-using Gefc.AI.Llm.Tests.TestDoubles;
 
 namespace Gefc.AI.Llm.Tests;
 

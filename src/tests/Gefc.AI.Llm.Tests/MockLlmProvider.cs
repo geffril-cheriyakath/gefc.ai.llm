@@ -2,7 +2,7 @@ using Gefc.AI.Llm.Abstractions;
 using Gefc.AI.Llm.Models;
 using Gefc.AI.Llm.Streaming;
 
-namespace Gefc.AI.Llm.Tests.TestDoubles;
+namespace Gefc.Ai.Llm.Tests;
 
 internal sealed class MockLlmProvider : ILlmProvider
 {

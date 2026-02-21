@@ -6,17 +6,17 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "Gefc.AI.Llm.Tests/1.0.0": {
+      "Gefc.Ai.Llm.Tests/1.0.0": {
         "dependencies": {
-          "Gefc.AI.Llm": "1.0.0",
-          "Gefc.AI.Llm.Providers.Gemini": "1.0.0",
-          "Gefc.AI.Llm.Providers.Ollama": "1.0.0",
+          "Gefc.Ai.Llm": "1.0.0",
+          "Gefc.Ai.Llm.Providers.Gemini": "1.0.0",
+          "Gefc.Ai.Llm.Providers.Ollama": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "Moq": "4.20.70",
           "xunit": "2.9.3"
         },
         "runtime": {
-          "Gefc.AI.Llm.Tests.dll": {}
+          "Gefc.Ai.Llm.Tests.dll": {}
         }
       },
       "Castle.Core/5.1.1": {
@@ -531,46 +531,44 @@
           }
         }
       },
-      "Gefc.AI.Llm/1.0.0": {
+      "Gefc.Ai.Llm/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
           "Microsoft.Extensions.Options": "9.0.0"
         },
         "runtime": {
           "Gefc.AI.Llm.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
-      "Gefc.AI.Llm.Providers.Gemini/1.0.0": {
+      "Gefc.Ai.Llm.Providers.Gemini/1.0.0": {
         "dependencies": {
-          "Gefc.AI.Llm": "1.0.0",
+          "Gefc.Ai.Llm": "1.0.0",
           "Microsoft.Extensions.Http": "9.0.0"
         },
         "runtime": {
-          "Gefc.AI.Llm.Providers.Gemini.dll": {
+          "Gefc.Ai.Llm.Providers.Gemini.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Gefc.AI.Llm.Providers.Ollama/1.0.0": {
+      "Gefc.Ai.Llm.Providers.Ollama/1.0.0": {
         "dependencies": {
-          "Gefc.AI.Llm": "1.0.0",
+          "Gefc.Ai.Llm": "1.0.0",
           "Microsoft.Extensions.Http": "9.0.0"
         },
         "runtime": {
           "Gefc.AI.Llm.Providers.Ollama.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "Gefc.AI.Llm.Tests/1.0.0": {
+    "Gefc.Ai.Llm.Tests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -764,17 +762,17 @@
       "path": "xunit.extensibility.execution/2.9.3",
       "hashPath": "xunit.extensibility.execution.2.9.3.nupkg.sha512"
     },
-    "Gefc.AI.Llm/1.0.0": {
+    "Gefc.Ai.Llm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Gefc.AI.Llm.Providers.Gemini/1.0.0": {
+    "Gefc.Ai.Llm.Providers.Gemini/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Gefc.AI.Llm.Providers.Ollama/1.0.0": {
+    "Gefc.Ai.Llm.Providers.Ollama/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

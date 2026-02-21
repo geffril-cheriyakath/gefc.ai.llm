@@ -709,7 +709,7 @@
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Gefc.AI.Llm/1.0.0": {
+      "Gefc.Ai.Llm/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -717,38 +717,38 @@
           "Microsoft.Extensions.Options": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/Gefc.AI.Llm.dll": {}
+          "bin/placeholder/Gefc.Ai.Llm.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Gefc.AI.Llm.dll": {}
+          "bin/placeholder/Gefc.Ai.Llm.dll": {}
         }
       },
-      "Gefc.AI.Llm.Providers.Gemini/1.0.0": {
+      "Gefc.Ai.Llm.Providers.Gemini/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Gefc.AI.Llm": "1.0.0",
+          "Gefc.Ai.Llm": "1.0.0",
           "Microsoft.Extensions.Http": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/Gefc.AI.Llm.Providers.Gemini.dll": {}
+          "bin/placeholder/Gefc.Ai.Llm.Providers.Gemini.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Gefc.AI.Llm.Providers.Gemini.dll": {}
+          "bin/placeholder/Gefc.Ai.Llm.Providers.Gemini.dll": {}
         }
       },
-      "Gefc.AI.Llm.Providers.Ollama/1.0.0": {
+      "Gefc.Ai.Llm.Providers.Ollama/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Gefc.AI.Llm": "1.0.0",
+          "Gefc.Ai.Llm": "1.0.0",
           "Microsoft.Extensions.Http": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/Gefc.AI.Llm.Providers.Ollama.dll": {}
+          "bin/placeholder/Gefc.Ai.Llm.Providers.Ollama.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Gefc.AI.Llm.Providers.Ollama.dll": {}
+          "bin/placeholder/Gefc.Ai.Llm.Providers.Ollama.dll": {}
         }
       }
     }
@@ -1776,27 +1776,27 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Gefc.AI.Llm/1.0.0": {
+    "Gefc.Ai.Llm/1.0.0": {
       "type": "project",
-      "path": "../../Gefc.AI.Llm/Gefc.AI.Llm.csproj",
-      "msbuildProject": "../../Gefc.AI.Llm/Gefc.AI.Llm.csproj"
+      "path": "../../src/Gefc.Ai.Llm/Gefc.Ai.Llm.csproj",
+      "msbuildProject": "../../src/Gefc.Ai.Llm/Gefc.Ai.Llm.csproj"
     },
-    "Gefc.AI.Llm.Providers.Gemini/1.0.0": {
+    "Gefc.Ai.Llm.Providers.Gemini/1.0.0": {
       "type": "project",
-      "path": "../../Gefc.AI.Llm.Providers.Gemini/Gefc.AI.Llm.Providers.Gemini.csproj",
-      "msbuildProject": "../../Gefc.AI.Llm.Providers.Gemini/Gefc.AI.Llm.Providers.Gemini.csproj"
+      "path": "../../src/Gefc.Ai.Llm.Providers.Gemini/Gefc.Ai.Llm.Providers.Gemini.csproj",
+      "msbuildProject": "../../src/Gefc.Ai.Llm.Providers.Gemini/Gefc.Ai.Llm.Providers.Gemini.csproj"
     },
-    "Gefc.AI.Llm.Providers.Ollama/1.0.0": {
+    "Gefc.Ai.Llm.Providers.Ollama/1.0.0": {
       "type": "project",
-      "path": "../../Gefc.AI.Llm.Providers.Ollama/Gefc.AI.Llm.Providers.Ollama.csproj",
-      "msbuildProject": "../../Gefc.AI.Llm.Providers.Ollama/Gefc.AI.Llm.Providers.Ollama.csproj"
+      "path": "../../src/Gefc.Ai.Llm.Providers.Ollama/Gefc.Ai.Llm.Providers.Ollama.csproj",
+      "msbuildProject": "../../src/Gefc.Ai.Llm.Providers.Ollama/Gefc.Ai.Llm.Providers.Ollama.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Gefc.AI.Llm >= 1.0.0",
-      "Gefc.AI.Llm.Providers.Gemini >= 1.0.0",
-      "Gefc.AI.Llm.Providers.Ollama >= 1.0.0",
+      "Gefc.Ai.Llm >= 1.0.0",
+      "Gefc.Ai.Llm.Providers.Gemini >= 1.0.0",
+      "Gefc.Ai.Llm.Providers.Ollama >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "Moq >= 4.20.70",
       "coverlet.collector >= 6.0.4",
@@ -1811,11 +1811,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\tests\\Gefc.AI.Llm.Tests\\Gefc.AI.Llm.Tests.csproj",
-      "projectName": "Gefc.AI.Llm.Tests",
-      "projectPath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\tests\\Gefc.AI.Llm.Tests\\Gefc.AI.Llm.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\tests\\Gefc.Ai.Llm.Tests\\Gefc.Ai.Llm.Tests.csproj",
+      "projectName": "Gefc.Ai.Llm.Tests",
+      "projectPath": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\tests\\Gefc.Ai.Llm.Tests\\Gefc.Ai.Llm.Tests.csproj",
       "packagesPath": "C:\\Users\\geffr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\tests\\Gefc.AI.Llm.Tests\\obj\\",
+      "outputPath": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\tests\\Gefc.Ai.Llm.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1838,14 +1838,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\Gefc.AI.Llm.Providers.Gemini\\Gefc.AI.Llm.Providers.Gemini.csproj": {
-              "projectPath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\Gefc.AI.Llm.Providers.Gemini\\Gefc.AI.Llm.Providers.Gemini.csproj"
+            "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm.Providers.Gemini\\Gefc.Ai.Llm.Providers.Gemini.csproj": {
+              "projectPath": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm.Providers.Gemini\\Gefc.Ai.Llm.Providers.Gemini.csproj"
             },
-            "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\Gefc.AI.Llm.Providers.Ollama\\Gefc.AI.Llm.Providers.Ollama.csproj": {
-              "projectPath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\Gefc.AI.Llm.Providers.Ollama\\Gefc.AI.Llm.Providers.Ollama.csproj"
+            "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.AI.Llm.Providers.Ollama\\Gefc.Ai.Llm.Providers.Ollama.csproj": {
+              "projectPath": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.AI.Llm.Providers.Ollama\\Gefc.Ai.Llm.Providers.Ollama.csproj"
             },
-            "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\Gefc.AI.Llm\\Gefc.AI.Llm.csproj": {
-              "projectPath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\Gefc.AI.Llm\\Gefc.AI.Llm.csproj"
+            "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj": {
+              "projectPath": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj"
             }
           }
         }
