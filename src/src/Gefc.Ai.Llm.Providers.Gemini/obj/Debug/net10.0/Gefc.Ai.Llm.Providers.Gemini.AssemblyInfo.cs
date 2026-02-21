@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gefc.Ai.Llm.Providers.Gemini")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cae85ba684de0dbc327e9839b3dcb270e5c787f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gefc.Ai.Llm.Providers.Gemini")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gefc.Ai.Llm.Providers.Gemini")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

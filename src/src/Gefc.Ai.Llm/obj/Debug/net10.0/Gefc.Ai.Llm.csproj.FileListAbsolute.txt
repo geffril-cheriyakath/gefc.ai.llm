@@ -22,3 +22,16 @@ C:\Users\geffr\source\repos\new gefc llm\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.
 C:\Users\geffr\source\repos\new gefc llm\src\Gefc.Ai.Llm\obj\Debug\net10.0\refint\Gefc.Ai.Llm.dll
 C:\Users\geffr\source\repos\new gefc llm\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.Ai.Llm.pdb
 C:\Users\geffr\source\repos\new gefc llm\src\Gefc.Ai.Llm\obj\Debug\net10.0\ref\Gefc.Ai.Llm.dll
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\bin\Debug\net10.0\Gefc.Ai.Llm.deps.json
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\bin\Debug\net10.0\Gefc.Ai.Llm.dll
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\bin\Debug\net10.0\Gefc.Ai.Llm.pdb
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.Ai.Llm.csproj.AssemblyReference.cache
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.Ai.Llm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.Ai.Llm.AssemblyInfoInputs.cache
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.Ai.Llm.AssemblyInfo.cs
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.Ai.Llm.csproj.CoreCompileInputs.cache
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.Ai.Llm.sourcelink.json
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.Ai.Llm.dll
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\refint\Gefc.Ai.Llm.dll
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\Gefc.Ai.Llm.pdb
+C:\Users\geffr\OneDrive\Desktop\Personal\repos\gefc.ai.llm\src\src\Gefc.Ai.Llm\obj\Debug\net10.0\ref\Gefc.Ai.Llm.dll

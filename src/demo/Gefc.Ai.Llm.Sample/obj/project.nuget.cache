@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r64eVf4Qme4=",
+  "dgSpecHash": "Nq346oyqvgs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\demo\\Gefc.Ai.Llm.Sample\\Gefc.Ai.Llm.Sample.csproj",
+  "projectFilePath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\demo\\Gefc.Ai.Llm.Sample\\Gefc.Ai.Llm.Sample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\geffr\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.3\\microsoft.extensions.configuration.10.0.3.nupkg.sha512",
     "C:\\Users\\geffr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.3\\microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512",

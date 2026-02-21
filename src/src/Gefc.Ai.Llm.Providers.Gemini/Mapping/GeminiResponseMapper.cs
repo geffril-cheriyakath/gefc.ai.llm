@@ -4,6 +4,7 @@
 // ------------------------------------------------------------
 
 using System.Text.Json;
+using Gefc.AI.Llm.Exceptions;
 using Gefc.AI.Llm.Models;
 
 namespace Gefc.AI.Llm.Providers.Gemini.Mapping;
@@ -14,12 +15,28 @@ internal static class GeminiResponseMapper
         JsonElement json,
         ChatRequest request)
     {
-        var text = json
-            .GetProperty("candidates")[0]
-            .GetProperty("content")
-            .GetProperty("parts")[0]
-            .GetProperty("text")
-            .GetString() ?? string.Empty;
+        if (!json.TryGetProperty("candidates", out var candidates) ||
+            candidates.GetArrayLength() == 0)
+        {
+            throw new LlmResponseParseException(
+                "gemini",
+                "Gemini response does not contain any candidates.");
+        }
+
+        var candidate = candidates[0];
+
+        if (!candidate.TryGetProperty("content", out var content) ||
+            !content.TryGetProperty("parts", out var parts) ||
+            parts.GetArrayLength() == 0)
+        {
+            throw new LlmResponseParseException(
+                "gemini",
+                "Gemini response candidate does not contain content parts.");
+        }
+
+        var text = parts[0].TryGetProperty("text", out var textProp)
+            ? textProp.GetString() ?? string.Empty
+            : string.Empty;
 
         return new ChatResponse
         {

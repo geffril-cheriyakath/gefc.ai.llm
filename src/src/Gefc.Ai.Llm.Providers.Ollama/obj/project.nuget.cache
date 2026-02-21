@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HvKfSLpYZyU=",
+  "dgSpecHash": "765EMF8QiDw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm.Providers.Ollama\\Gefc.Ai.Llm.Providers.Ollama.csproj",
+  "projectFilePath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.Ai.Llm.Providers.Ollama\\Gefc.Ai.Llm.Providers.Ollama.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\geffr\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
     "C:\\Users\\geffr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",

@@ -421,8 +421,9 @@
           "Microsoft.Extensions.Options": "10.0.3"
         },
         "runtime": {
-          "Gefc.AI.Llm.dll": {
-            "fileVersion": "0.0.0.0"
+          "Gefc.Ai.Llm.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },

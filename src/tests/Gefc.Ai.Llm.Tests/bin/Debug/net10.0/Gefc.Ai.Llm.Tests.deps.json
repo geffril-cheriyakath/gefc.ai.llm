@@ -537,8 +537,9 @@
           "Microsoft.Extensions.Options": "9.0.0"
         },
         "runtime": {
-          "Gefc.AI.Llm.dll": {
-            "fileVersion": "0.0.0.0"
+          "Gefc.Ai.Llm.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -560,8 +561,9 @@
           "Microsoft.Extensions.Http": "9.0.0"
         },
         "runtime": {
-          "Gefc.AI.Llm.Providers.Ollama.dll": {
-            "fileVersion": "0.0.0.0"
+          "Gefc.Ai.Llm.Providers.Ollama.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }

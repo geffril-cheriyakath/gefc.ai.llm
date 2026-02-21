@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj": {}
+    "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj": {
+    "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj",
+        "projectUniqueName": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj",
         "projectName": "Gefc.Ai.Llm",
-        "projectPath": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj",
+        "projectPath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.Ai.Llm\\Gefc.Ai.Llm.csproj",
         "packagesPath": "C:\\Users\\geffr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\geffr\\source\\repos\\new gefc llm\\src\\Gefc.Ai.Llm\\obj\\",
+        "outputPath": "C:\\Users\\geffr\\OneDrive\\Desktop\\Personal\\repos\\gefc.ai.llm\\src\\src\\Gefc.Ai.Llm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

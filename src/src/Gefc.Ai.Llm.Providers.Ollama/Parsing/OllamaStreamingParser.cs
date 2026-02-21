@@ -23,21 +23,38 @@ internal static class OllamaStreamingParser
             if (string.IsNullOrWhiteSpace(line))
                 continue;
 
-            var json = JsonDocument.Parse(line).RootElement;
-
-            var done = json.GetProperty("done").GetBoolean();
-            var delta = json.GetProperty("message")
-                            .GetProperty("content")
-                            .GetString() ?? string.Empty;
-
-            yield return new ChatStreamChunk
+            JsonDocument doc;
+            try
             {
-                Delta = delta,
-                IsCompleted = done
-            };
+                doc = JsonDocument.Parse(line);
+            }
+            catch (JsonException)
+            {
+                // Skip malformed NDJSON lines and continue scanning.
+                continue;
+            }
 
-            if (done)
-                yield break;
+            using (doc)
+            {
+                var json = doc.RootElement;
+
+                var done = json.TryGetProperty("done", out var doneProp)
+                    && doneProp.GetBoolean();
+
+                var delta = json.TryGetProperty("message", out var message)
+                    && message.TryGetProperty("content", out var content)
+                        ? content.GetString() ?? string.Empty
+                        : string.Empty;
+
+                yield return new ChatStreamChunk
+                {
+                    Delta = delta,
+                    IsCompleted = done
+                };
+
+                if (done)
+                    yield break;
+            }
         }
     }
 }
